@@ -1,10 +1,10 @@
-/* index.css - especifico da pagina "Sobre mim" */
+
 
 figure {
   margin: 15px 0;
   display: flex;
   flex-direction: column;
-  /* mantém figcaption embaixo da foto */
+
   align-items: center;
 }
 
