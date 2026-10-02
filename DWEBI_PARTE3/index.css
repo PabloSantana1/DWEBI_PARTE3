@@ -1,0 +1,12 @@
+/* index.css - especifico da pagina "Sobre mim" */
+
+figure {
+  margin: 15px 0;
+}
+
+.foto-perfil {
+  width: 140px;
+  height: auto;
+  max-width: 100%;
+  border: 3px solid #E4572E;
+}

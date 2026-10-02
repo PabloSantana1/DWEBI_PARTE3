@@ -1,0 +1,31 @@
+/* cidade.css - especifico da pagina "Minha cidade" */
+
+.foto-cidade {
+  width: 100%;
+  height: auto;
+  border: 2px solid #1B3A5C;
+}
+
+
+.galeria-cidade figure {
+  margin: 15px 0;
+  padding: 10px;
+  border: 1px solid #cccccc;
+}
+
+iframe {
+  border: 0;
+  max-width: 100%;
+}
+
+/* 2 colunas a partir de 700px */
+@media (min-width: 700px) {
+  .galeria-cidade {
+    display: flex;
+    gap: 15px;
+  }
+
+  .galeria-cidade figure {
+    flex: 1;
+  }
+}
